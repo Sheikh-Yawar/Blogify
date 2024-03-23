@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 100vw;
+  padding: 0 250px;
+  font-family: "Work Sans", "sans-serif";
+}
+.userAuth {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Work Sans", "sans-serif";
+}
+
+::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers */
+}
+
+.rdw-option-active,
+.rdw-dropdownoption-default:hover,
+.rdw-dropdownoption-active {
+  background-color: #4b6bfb49 !important;
+}
+
+pre {
+  background-color: #8080805c;
+  padding: 10px;
+  border-radius: 6px;
+}
